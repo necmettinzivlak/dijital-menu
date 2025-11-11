@@ -2,7 +2,7 @@
 export const appConfig = {
   // API ayarları
   api: {
-    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://ahmetburakbackend.dileksoft.comhttp://185.169.180.64:5001',
+    baseUrl: process.env.NEXT_PUBLIC_API_URL || 'https://ahmetburakbackend.dileksoft.com',
     timeout: 10000, // 10 saniye
     endpoints: {
       restaurantMenu: (restaurantId: string) => 
